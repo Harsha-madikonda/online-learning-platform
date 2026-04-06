@@ -20,7 +20,7 @@ function Courses() {
   // 📥 Fetch Courses
   const fetchCourses = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/courses", {
+      const res = await axios.get("https://online-learning-platform-n020.onrender.com/api/courses", {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -42,7 +42,7 @@ function Courses() {
   const addCourse = async () => {
     try {
       await axios.post(
-        "http://localhost:5000/api/courses/add",
+        "https://online-learning-platform-n020.onrender.com/api/courses/add",
         {
           title,
           description,
@@ -78,7 +78,7 @@ function Courses() {
   const deleteCourse = async (id) => {
     try {
       await axios.delete(
-        `http://localhost:5000/api/courses/${id}`,
+        `https://online-learning-platform-n020.onrender.com/api/courses/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`
