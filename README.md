@@ -3,7 +3,17 @@
 A full-stack web application where users can register, login, and access courses. Admin users can manage courses, and students can learn from them.
 
 ---
+## 🌐 Project Links
 
+🚀 **Live Demo:**  
+https://online-learning-platform-nu-ochre.vercel.app/
+
+💻 **GitHub Repository:**  
+https://github.com/Harsha-madikonda/online-learning-platform
+
+🔗 **Backend API:**  
+https://online-learning-platform-n020.onrender.com
+---
 ## 🚀 Features
 
 ### 👤 Authentication
